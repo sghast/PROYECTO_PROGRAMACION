@@ -15,6 +15,7 @@ struct Repuesto {
     int stock;
 };
 
+//CREATE
 void agregarRepuesto() {
     Repuesto nuevo;
     ofstream archivo("repuestos.txt", ios::app);
@@ -87,3 +88,4 @@ int main() {
 
     return 0;
 }
+
